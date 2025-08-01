@@ -1,0 +1,130 @@
+[
+  {
+    "id": "1",
+    "name": "Eiffel Tower",
+    "description": "Iconic iron lattice tower on the Champ de Mars in Paris, France. Standing 324 meters tall, it's the most-visited paid monument in the world.",
+    "image": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?w=800&h=600&fit=crop",
+    "tags": ["landmark", "Paris", "France", "architecture", "tourist"],
+    "rating": 4.7,
+    "reviews": 12000,
+    "mapLink": "https://goo.gl/maps/8YV8s",
+    "coordinates": {
+      "latitude": 48.8584,
+      "longitude": 2.2945
+    },
+    "priceLevel": "moderate",
+    "category": ["landmark", "cultural"]
+  },
+  {
+    "id": "2",
+    "name": "Santorini Sunset",
+    "description": "Breathtaking sunset views from the white-washed buildings of Oia, Santorini. Famous for its stunning caldera views and romantic atmosphere.",
+    "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=800&h=600&fit=crop",
+    "tags": ["sunset", "Greece", "island", "romantic", "views"],
+    "rating": 4.9,
+    "reviews": 8500,
+    "mapLink": "https://goo.gl/maps/santorini",
+    "coordinates": {
+      "latitude": 36.4619,
+      "longitude": 25.3764
+    },
+    "priceLevel": "luxury",
+    "category": ["nature", "romantic"]
+  },
+  {
+    "id": "3",
+    "name": "Machu Picchu",
+    "description": "Ancient Incan citadel set high in the Andes Mountains in Peru. One of the most impressive archaeological sites in the world.",
+    "image": "https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=800&h=600&fit=crop",
+    "tags": ["ancient", "Peru", "mountains", "history", "hiking"],
+    "rating": 4.8,
+    "reviews": 9500,
+    "mapLink": "https://goo.gl/maps/machupicchu",
+    "coordinates": {
+      "latitude": -13.1631,
+      "longitude": -72.5450
+    },
+    "priceLevel": "moderate",
+    "category": ["historical", "adventure"]
+  },
+  {
+    "id": "4",
+    "name": "Tokyo Street",
+    "description": "Vibrant street life in Tokyo's Shibuya district. Famous for its neon lights, fashion, and the world's busiest pedestrian crossing.",
+    "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&h=600&fit=crop",
+    "tags": ["Japan", "city", "neon", "fashion", "urban"],
+    "rating": 4.6,
+    "reviews": 7800,
+    "mapLink": "https://goo.gl/maps/tokyo",
+    "coordinates": {
+      "latitude": 35.6586,
+      "longitude": 139.7016
+    },
+    "priceLevel": "moderate",
+    "category": ["urban", "culture"]
+  },
+  {
+    "id": "5",
+    "name": "Banff National Park",
+    "description": "Stunning Canadian Rockies landscape with turquoise lakes, snow-capped peaks, and abundant wildlife in Alberta, Canada.",
+    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+    "tags": ["Canada", "mountains", "nature", "hiking", "wildlife"],
+    "rating": 4.9,
+    "reviews": 11000,
+    "mapLink": "https://goo.gl/maps/banff",
+    "coordinates": {
+      "latitude": 51.4968,
+      "longitude": -115.9281
+    },
+    "priceLevel": "budget",
+    "category": ["nature", "adventure"]
+  },
+  {
+    "id": "6",
+    "name": "Venice Canals",
+    "description": "Romantic gondola rides through the historic canals of Venice, Italy. A city built on water with stunning architecture.",
+    "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800&h=600&fit=crop",
+    "tags": ["Italy", "canals", "romantic", "architecture", "gondola"],
+    "rating": 4.7,
+    "reviews": 9200,
+    "mapLink": "https://goo.gl/maps/venice",
+    "coordinates": {
+      "latitude": 45.4408,
+      "longitude": 12.3155
+    },
+    "priceLevel": "luxury",
+    "category": ["romantic", "cultural"]
+  },
+  {
+    "id": "7",
+    "name": "Great Barrier Reef",
+    "description": "World's largest coral reef system off the coast of Australia. Home to thousands of marine species and stunning underwater landscapes.",
+    "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
+    "tags": ["Australia", "reef", "ocean", "diving", "marine"],
+    "rating": 4.8,
+    "reviews": 6800,
+    "mapLink": "https://goo.gl/maps/barrierreef",
+    "coordinates": {
+      "latitude": -16.2879,
+      "longitude": 145.6997
+    },
+    "priceLevel": "moderate",
+    "category": ["nature", "adventure"]
+  },
+  {
+    "id": "8",
+    "name": "New York City Skyline",
+    "description": "Iconic Manhattan skyline featuring the Empire State Building, One World Trade Center, and the city that never sleeps.",
+    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800&h=600&fit=crop",
+    "tags": ["USA", "city", "skyline", "urban", "architecture"],
+    "rating": 4.6,
+    "reviews": 15000,
+    "mapLink": "https://goo.gl/maps/nyc",
+    "coordinates": {
+      "latitude": 40.7128,
+      "longitude": -74.0060
+    },
+    "priceLevel": "expensive",
+    "category": ["urban", "cultural"]
+  }
+] 

@@ -1,0 +1,278 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": "user1",
+        "name": "Sarah Johnson",
+        "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face",
+        "username": "sarah_travels"
+      },
+      "location": {
+        "name": "Santorini",
+        "city": "Greece",
+        "coordinates": { "latitude": 36.4619, "longitude": 25.3764 }
+      },
+      "timestamp": "2 hours ago",
+      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=800&h=600&fit=crop",
+      "caption": "Sunset in Santorini! 🌅 This place is absolutely magical. The views are incredible and the atmosphere is so romantic!",
+      "tags": ["sunset", "Greece", "romantic", "travel"],
+      "likes": 124,
+      "comments": [
+        {
+          "id": "c1",
+          "user": {
+            "id": "user2",
+            "name": "Alex Rodriguez",
+            "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face"
+          },
+          "text": "Stunning view! 😍",
+          "timestamp": "1 hour ago"
+        },
+        {
+          "id": "c2",
+          "user": {
+            "id": "user3",
+            "name": "Maria Garcia",
+            "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face"
+          },
+          "text": "Love this place! Been there last summer 🌅",
+          "timestamp": "45 minutes ago"
+        },
+        {
+          "id": "c3",
+          "user": {
+            "id": "user4",
+            "name": "David Lee",
+            "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face"
+          },
+          "text": "Bucket list destination! 📍",
+          "timestamp": "30 minutes ago"
+        }
+      ],
+      "isLiked": false
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": "user2",
+        "name": "Mike Chen",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
+        "username": "mike_explorer"
+      },
+      "location": {
+        "name": "Eiffel Tower",
+        "city": "Paris, France",
+        "coordinates": { "latitude": 48.8584, "longitude": 2.2945 }
+      },
+      "timestamp": "4 hours ago",
+      "image": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?w=800&h=600&fit=crop",
+      "caption": "Finally made it to the Eiffel Tower! 🗼 The architecture is breathtaking and the city views are amazing.",
+      "tags": ["Paris", "landmark", "architecture", "travel"],
+      "likes": 89,
+      "comments": [
+        {
+          "id": "c4",
+          "user": {
+            "id": "user1",
+            "name": "Sarah Johnson",
+            "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face"
+          },
+          "text": "Beautiful! Did you go up to the top?",
+          "timestamp": "3 hours ago"
+        },
+        {
+          "id": "c5",
+          "user": {
+            "id": "user5",
+            "name": "Lisa Wang",
+            "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&crop=face"
+          },
+          "text": "Paris is always a good idea! 🇫🇷",
+          "timestamp": "2 hours ago"
+        }
+      ],
+      "isLiked": true
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": "user3",
+        "name": "Emma Davis",
+        "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
+        "username": "emma_adventures"
+      },
+      "location": {
+        "name": "Machu Picchu",
+        "city": "Peru",
+        "coordinates": { "latitude": -13.1631, "longitude": -72.5450 }
+      },
+      "timestamp": "6 hours ago",
+      "image": "https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=800&h=600&fit=crop",
+      "caption": "Hiking to Machu Picchu was absolutely worth it! 🏔️ The ancient ruins are incredible and the mountain views are spectacular.",
+      "tags": ["Peru", "hiking", "ancient", "mountains"],
+      "likes": 156,
+      "comments": [
+        {
+          "id": "c6",
+          "user": {
+            "id": "user2",
+            "name": "Mike Chen",
+            "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face"
+          },
+          "text": "Amazing! How long was the hike?",
+          "timestamp": "5 hours ago"
+        },
+        {
+          "id": "c7",
+          "user": {
+            "id": "user6",
+            "name": "Tom Wilson",
+            "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face"
+          },
+          "text": "Bucket list item! 🏔️",
+          "timestamp": "4 hours ago"
+        },
+        {
+          "id": "c8",
+          "user": {
+            "id": "user7",
+            "name": "Anna Smith",
+            "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face"
+          },
+          "text": "The altitude must have been challenging!",
+          "timestamp": "3 hours ago"
+        }
+      ],
+      "isLiked": false
+    },
+    {
+      "id": "4",
+      "user": {
+        "id": "user4",
+        "name": "Alex Rodriguez",
+        "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
+        "username": "alex_world"
+      },
+      "location": {
+        "name": "Tokyo Street",
+        "city": "Japan",
+        "coordinates": { "latitude": 35.6586, "longitude": 139.7016 }
+      },
+      "timestamp": "8 hours ago",
+      "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&h=600&fit=crop",
+      "caption": "Tokyo at night is absolutely electric! ✨ The neon lights and energy here are incredible. Love this city!",
+      "tags": ["Japan", "Tokyo", "neon", "city"],
+      "likes": 203,
+      "comments": [
+        {
+          "id": "c9",
+          "user": {
+            "id": "user1",
+            "name": "Sarah Johnson",
+            "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face"
+          },
+          "text": "Tokyo is on my list! 🇯🇵",
+          "timestamp": "7 hours ago"
+        },
+        {
+          "id": "c10",
+          "user": {
+            "id": "user8",
+            "name": "Carlos Mendez",
+            "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face"
+          },
+          "text": "The food there is amazing! 🍜",
+          "timestamp": "6 hours ago"
+        }
+      ],
+      "isLiked": true
+    },
+    {
+      "id": "5",
+      "user": {
+        "id": "user5",
+        "name": "Lisa Wang",
+        "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&crop=face",
+        "username": "lisa_nature"
+      },
+      "location": {
+        "name": "Banff National Park",
+        "city": "Canada",
+        "coordinates": { "latitude": 51.4968, "longitude": -115.9281 }
+      },
+      "timestamp": "1 day ago",
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+      "caption": "Banff National Park is pure magic! 🏔️ The turquoise lakes and snow-capped peaks are absolutely stunning.",
+      "tags": ["Canada", "mountains", "nature", "hiking"],
+      "likes": 267,
+      "comments": [
+        {
+          "id": "c11",
+          "user": {
+            "id": "user3",
+            "name": "Emma Davis",
+            "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face"
+          },
+          "text": "Stunning! Which lake is this?",
+          "timestamp": "23 hours ago"
+        },
+        {
+          "id": "c12",
+          "user": {
+            "id": "user9",
+            "name": "Rachel Green",
+            "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face"
+          },
+          "text": "Canada is so beautiful! 🇨🇦",
+          "timestamp": "22 hours ago"
+        }
+      ],
+      "isLiked": false
+    }
+  ],
+  "hashtags": {
+    "sunset": [
+      {
+        "id": "h1",
+        "user": {
+          "id": "user10",
+          "name": "John Doe",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face"
+        },
+        "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+        "caption": "Golden hour in the mountains! #sunset #mountains",
+        "likes": 89,
+        "timestamp": "3 hours ago"
+      }
+    ],
+    "Greece": [
+      {
+        "id": "h2",
+        "user": {
+          "id": "user11",
+          "name": "Sophie Martin",
+          "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face"
+        },
+        "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=800&h=600&fit=crop",
+        "caption": "Mykonos vibes! 🇬🇷 #Greece #island",
+        "likes": 156,
+        "timestamp": "5 hours ago"
+      }
+    ],
+    "Paris": [
+      {
+        "id": "h3",
+        "user": {
+          "id": "user12",
+          "name": "Pierre Dubois",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face"
+        },
+        "image": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?w=800&h=600&fit=crop",
+        "caption": "Paris in spring! 🌸 #Paris #spring",
+        "likes": 234,
+        "timestamp": "1 day ago"
+      }
+    ]
+  }
+} 

@@ -1,0 +1,194 @@
+{
+  "cities": [
+    {
+      "name": "New York",
+      "country": "USA",
+      "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=400&h=300&fit=crop",
+      "description": "The city that never sleeps",
+      "attractions": [
+        {
+          "id": "nyc-1",
+          "name": "Central Park",
+          "description": "A beautiful urban park in the heart of NYC with walking trails, lakes, and recreational areas.",
+          "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=400&h=300&fit=crop",
+          "tags": ["park", "nature", "relaxation", "family"],
+          "rating": 4.7,
+          "reviews": 1500,
+          "coordinates": { "latitude": 40.785091, "longitude": -73.968285 }
+        },
+        {
+          "id": "nyc-2",
+          "name": "Empire State Building",
+          "description": "Famous skyscraper with observation deck offering stunning city views.",
+          "image": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?w=400&h=300&fit=crop",
+          "tags": ["landmark", "view", "architecture", "tourist"],
+          "rating": 4.6,
+          "reviews": 2100,
+          "coordinates": { "latitude": 40.748817, "longitude": -73.985428 }
+        },
+        {
+          "id": "nyc-3",
+          "name": "Times Square",
+          "description": "Famous intersection known for its bright lights, Broadway theaters, and entertainment.",
+          "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=400&h=300&fit=crop",
+          "tags": ["entertainment", "nightlife", "lights", "broadway"],
+          "rating": 4.3,
+          "reviews": 1800,
+          "coordinates": { "latitude": 40.7580, "longitude": -73.9855 }
+        }
+      ]
+    },
+    {
+      "name": "Paris",
+      "country": "France",
+      "image": "https://images.unsplash.com/photo-1502602898536-47ad22581b52?w=400&h=300&fit=crop",
+      "description": "The city of love and lights",
+      "attractions": [
+        {
+          "id": "paris-1",
+          "name": "Eiffel Tower",
+          "description": "Iconic iron lattice tower on the Champ de Mars in Paris, France.",
+          "image": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?w=400&h=300&fit=crop",
+          "tags": ["landmark", "architecture", "romantic", "view"],
+          "rating": 4.7,
+          "reviews": 12000,
+          "coordinates": { "latitude": 48.8584, "longitude": 2.2945 }
+        },
+        {
+          "id": "paris-2",
+          "name": "Louvre Museum",
+          "description": "World's largest art museum and a historic monument in Paris.",
+          "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400&h=300&fit=crop",
+          "tags": ["museum", "art", "culture", "history"],
+          "rating": 4.5,
+          "reviews": 8900,
+          "coordinates": { "latitude": 48.8606, "longitude": 2.3376 }
+        },
+        {
+          "id": "paris-3",
+          "name": "Notre-Dame Cathedral",
+          "description": "Medieval Catholic cathedral on the Île de la Cité in Paris.",
+          "image": "https://images.unsplash.com/photo-1502602898536-47ad22581b52?w=400&h=300&fit=crop",
+          "tags": ["cathedral", "architecture", "history", "religious"],
+          "rating": 4.6,
+          "reviews": 7600,
+          "coordinates": { "latitude": 48.8530, "longitude": 2.3499 }
+        }
+      ]
+    },
+    {
+      "name": "Tokyo",
+      "country": "Japan",
+      "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=400&h=300&fit=crop",
+      "description": "A blend of tradition and innovation",
+      "attractions": [
+        {
+          "id": "tokyo-1",
+          "name": "Shibuya Crossing",
+          "description": "The world's busiest pedestrian crossing in Tokyo's Shibuya district.",
+          "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=400&h=300&fit=crop",
+          "tags": ["urban", "crossing", "neon", "city"],
+          "rating": 4.6,
+          "reviews": 7800,
+          "coordinates": { "latitude": 35.6586, "longitude": 139.7016 }
+        },
+        {
+          "id": "tokyo-2",
+          "name": "Senso-ji Temple",
+          "description": "Ancient Buddhist temple located in Asakusa, Tokyo.",
+          "image": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=400&h=300&fit=crop",
+          "tags": ["temple", "buddhist", "traditional", "culture"],
+          "rating": 4.4,
+          "reviews": 5200,
+          "coordinates": { "latitude": 35.7148, "longitude": 139.7967 }
+        },
+        {
+          "id": "tokyo-3",
+          "name": "Tokyo Skytree",
+          "description": "Broadcasting and observation tower in Tokyo.",
+          "image": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=400&h=300&fit=crop",
+          "tags": ["tower", "view", "modern", "observation"],
+          "rating": 4.3,
+          "reviews": 4100,
+          "coordinates": { "latitude": 35.7100, "longitude": 139.8107 }
+        }
+      ]
+    },
+    {
+      "name": "Rome",
+      "country": "Italy",
+      "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=400&h=300&fit=crop",
+      "description": "The eternal city",
+      "attractions": [
+        {
+          "id": "rome-1",
+          "name": "Colosseum",
+          "description": "Ancient amphitheater in the center of Rome, Italy.",
+          "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=400&h=300&fit=crop",
+          "tags": ["ancient", "amphitheater", "history", "landmark"],
+          "rating": 4.8,
+          "reviews": 15000,
+          "coordinates": { "latitude": 41.8902, "longitude": 12.4922 }
+        },
+        {
+          "id": "rome-2",
+          "name": "Vatican City",
+          "description": "Independent city-state enclaved within Rome.",
+          "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=400&h=300&fit=crop",
+          "tags": ["vatican", "religious", "art", "culture"],
+          "rating": 4.7,
+          "reviews": 9800,
+          "coordinates": { "latitude": 41.9029, "longitude": 12.4534 }
+        },
+        {
+          "id": "rome-3",
+          "name": "Trevi Fountain",
+          "description": "Famous fountain in the Trevi district in Rome.",
+          "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=400&h=300&fit=crop",
+          "tags": ["fountain", "romantic", "wish", "landmark"],
+          "rating": 4.5,
+          "reviews": 7200,
+          "coordinates": { "latitude": 41.9009, "longitude": 12.4833 }
+        }
+      ]
+    },
+    {
+      "name": "London",
+      "country": "UK",
+      "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=400&h=300&fit=crop",
+      "description": "Historic capital of England",
+      "attractions": [
+        {
+          "id": "london-1",
+          "name": "Big Ben",
+          "description": "Famous clock tower at the north end of the Houses of Parliament.",
+          "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=400&h=300&fit=crop",
+          "tags": ["clock", "landmark", "parliament", "historic"],
+          "rating": 4.6,
+          "reviews": 11000,
+          "coordinates": { "latitude": 51.4994, "longitude": -0.1245 }
+        },
+        {
+          "id": "london-2",
+          "name": "Tower Bridge",
+          "description": "Combined bascule and suspension bridge in London.",
+          "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=400&h=300&fit=crop",
+          "tags": ["bridge", "river", "architecture", "landmark"],
+          "rating": 4.4,
+          "reviews": 6800,
+          "coordinates": { "latitude": 51.5055, "longitude": -0.0754 }
+        },
+        {
+          "id": "london-3",
+          "name": "Buckingham Palace",
+          "description": "The London residence and administrative headquarters of the monarch.",
+          "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=400&h=300&fit=crop",
+          "tags": ["palace", "royal", "monarchy", "historic"],
+          "rating": 4.3,
+          "reviews": 5400,
+          "coordinates": { "latitude": 51.5014, "longitude": -0.1419 }
+        }
+      ]
+    }
+  ]
+} 
