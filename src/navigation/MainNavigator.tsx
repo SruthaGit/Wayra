@@ -23,7 +23,7 @@ const MainNavigator: React.FC = () => {
         tabBarIcon: ({ focused, color, size }) => {
           let iconName: keyof typeof Ionicons.glyphMap;
 
-          if (route.name === 'Home') {
+          if (route.name === 'Feed') {
             iconName = focused ? 'home' : 'home-outline';
           } else if (route.name === 'Explore') {
             iconName = focused ? 'search' : 'search-outline';
@@ -32,7 +32,7 @@ const MainNavigator: React.FC = () => {
           } else if (route.name === 'Profile') {
             iconName = focused ? 'person' : 'person-outline';
           } else {
-            iconName = 'help-outline';
+            iconName = 'home-outline';
           }
 
           return <Ionicons name={iconName} size={size} color={color} />;
@@ -77,6 +77,19 @@ const MainNavigator: React.FC = () => {
         options={{
           headerShown: true,
           headerTitle: 'Journi',
+          headerStyle: {
+            backgroundColor: '#FFFFFF',
+            elevation: 0,
+            shadowOpacity: 0,
+            borderBottomWidth: 0,
+          },
+          headerTitleStyle: {
+            fontWeight: '700',
+            fontSize: 18,
+            color: '#8B5CF6',
+          },
+          headerTitleAlign: 'left',
+          headerShadowVisible: false,
         }}
       />
       <Tab.Screen 
