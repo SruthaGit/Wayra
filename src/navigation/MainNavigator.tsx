@@ -54,7 +54,7 @@ const MainNavigator: React.FC = () => {
           fontSize: 12,
           fontWeight: '500',
         },
-        headerShown: false,
+        headerShown: true,
         headerStyle: {
           backgroundColor: '#FFFFFF',
           elevation: 0,
@@ -82,10 +82,11 @@ const MainNavigator: React.FC = () => {
             elevation: 0,
             shadowOpacity: 0,
             borderBottomWidth: 0,
+            height: 70,
           },
           headerTitleStyle: {
             fontWeight: '700',
-            fontSize: 18,
+            fontSize: 23,
             color: '#8B5CF6',
           },
           headerTitleAlign: 'left',

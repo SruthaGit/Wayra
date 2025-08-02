@@ -353,12 +353,14 @@ const styles = StyleSheet.create({
   },
   content: {
     flex: 1,
+    marginTop: -5,
   },
 
 
   feedList: {
     paddingBottom: 0,
     paddingTop: 0,
+    marginTop: -10,
   },
   feedItem: {
     borderBottomWidth: 1,
