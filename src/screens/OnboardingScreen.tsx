@@ -36,7 +36,7 @@ const OnboardingScreen: React.FC = () => {
 
         {/* Welcome Text */}
         <View style={styles.textContainer}>
-          <Text style={styles.title}>Welcome to Wayra</Text>
+          <Text style={styles.title}>Welcome to Journi</Text>
           <Text style={styles.subtitle}>
             Your journey starts here. Discover, share, and plan unforgettable travel experiences.
           </Text>
@@ -83,6 +83,7 @@ const styles = StyleSheet.create({
     color: 'white',
     textAlign: 'center',
     marginBottom: 16,
+    fontFamily: 'Inter_700Bold',
   },
   subtitle: {
     fontSize: 18,

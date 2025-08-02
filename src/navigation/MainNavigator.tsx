@@ -2,11 +2,13 @@ import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { useTheme } from 'react-native-paper';
 import { Ionicons } from '@expo/vector-icons';
+import { Text } from 'react-native';
 import { MainTabParamList } from '../types';
+
 
 // Import screens
 import HomeScreen from '../screens/HomeScreen';
-import ExploreScreen from '../screens/ExploreScreen';
+import SearchScreen from '../screens/SearchScreen';
 import TripsScreen from '../screens/TripsScreen';
 import ProfileScreen from '../screens/ProfileScreen';
 
@@ -53,34 +55,51 @@ const MainNavigator: React.FC = () => {
           fontWeight: '500',
         },
         headerShown: false,
+        headerStyle: {
+          backgroundColor: '#FFFFFF',
+          elevation: 0,
+          shadowOpacity: 0,
+          borderBottomWidth: 0,
+          height: 45,
+        },
+        headerTitleStyle: {
+          fontWeight: '700',
+          paddingTop: 0,
+          paddingBottom: 0,
+        },
+        headerTitleAlign: 'left',
+        headerShadowVisible: false,
       })}
     >
       <Tab.Screen 
         name="Feed" 
         component={HomeScreen}
         options={{
-          title: 'Feed',
+          headerShown: true,
+          headerTitle: 'Journi',
         }}
       />
       <Tab.Screen 
         name="Explore" 
-        component={ExploreScreen}
+        component={SearchScreen}
         options={{
-          title: 'Explore',
+          headerShown: true,
+          headerTitle: 'Explore',
         }}
       />
       <Tab.Screen 
         name="Trips" 
         component={TripsScreen}
         options={{
-          title: 'Trips',
+          headerShown: true,
+          headerTitle: 'Trips',
         }}
       />
       <Tab.Screen 
         name="Profile" 
         component={ProfileScreen}
         options={{
-          title: 'Profile',
+          headerShown: false,
         }}
       />
     </Tab.Navigator>

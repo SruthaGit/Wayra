@@ -159,7 +159,7 @@ const HomeScreen: React.FC = () => {
     const Share = require('react-native').Share;
     Share.share({
       message: `Check out this post from ${post.user.name}: ${post.caption}`,
-      title: 'Shared from Wayra',
+              title: 'Shared from Journi',
     }).catch((error: any) => {
       console.error('Error sharing:', error);
     });
@@ -285,15 +285,8 @@ const HomeScreen: React.FC = () => {
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
       <View style={styles.content}>
-        {/* Header */}
-        <View style={styles.header}>
-          <Text variant="titleLarge" style={styles.appName}>
-            Wayra
-          </Text>
-          <Text variant="headlineSmall" style={styles.headerTitle}>
-            Feed
-          </Text>
-        </View>
+        
+
 
         {/* Feed List */}
         <FlatList
@@ -361,28 +354,16 @@ const styles = StyleSheet.create({
   content: {
     flex: 1,
   },
-  header: {
-    paddingVertical: 12,
-    paddingHorizontal: 16,
-    marginBottom: 8,
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-  },
-  appName: {
-    fontWeight: 'bold',
-    color: '#5A67D8',
-  },
-  headerTitle: {
-    fontWeight: 'bold',
-  },
+
+
   feedList: {
     paddingBottom: 0,
+    paddingTop: 0,
   },
   feedItem: {
     borderBottomWidth: 1,
     borderColor: '#e0e0e0',
-    paddingVertical: 15,
+    paddingVertical: 10,
     paddingHorizontal: 15,
     backgroundColor: '#fff',
   },

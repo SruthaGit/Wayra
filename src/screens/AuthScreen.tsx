@@ -137,7 +137,7 @@ const AuthScreen: React.FC = () => {
           <View style={styles.header}>
             <Ionicons name="compass" size={80} color="white" />
             <Text variant="displaySmall" style={styles.appTitle}>
-              Wayra
+              Journi
             </Text>
             <Text variant="titleMedium" style={styles.appSubtitle}>
               {isLogin ? 'Welcome back!' : 'Join the adventure'}
@@ -310,6 +310,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginTop: 16,
     marginBottom: 8,
+    fontFamily: 'Inter_700Bold',
   },
   appSubtitle: {
     color: 'white',

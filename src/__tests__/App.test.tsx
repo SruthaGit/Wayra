@@ -1,5 +1,5 @@
-// Basic tests for the Wayra app
-describe('Wayra App', () => {
+// Basic tests for the Journi app
+describe('Journi App', () => {
   it('should handle basic math operations', () => {
     expect(1 + 1).toBe(2);
     expect(2 * 3).toBe(6);
@@ -12,8 +12,8 @@ describe('Wayra App', () => {
   });
 
       it('should handle string operations', () => {
-      const appName = 'Wayra';
-      expect(appName).toBe('Wayra');
+      const appName = 'Journi';
+      expect(appName).toBe('Journi');
       expect(appName.length).toBe(5);
     });
 

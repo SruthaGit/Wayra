@@ -4,6 +4,7 @@ import {
   StyleSheet,
   ScrollView,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import {
   Text,
   Card,
@@ -63,14 +64,14 @@ const ProfileScreen: React.FC = () => {
       onPress: () => {/* TODO: Navigate to help */},
     },
     {
-              title: 'About Wayra',
+              title: 'About Journi',
       icon: 'information',
       onPress: () => {/* TODO: Navigate to about */},
     },
   ];
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container} edges={['top']}>
       <ScrollView style={styles.scrollView}>
         {/* Profile Header */}
         <LinearGradient
@@ -204,7 +205,7 @@ const ProfileScreen: React.FC = () => {
           </Button>
         </View>
       </ScrollView>
-    </View>
+    </SafeAreaView>
   );
 };
 
@@ -217,7 +218,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   header: {
-    paddingTop: 60,
+    paddingTop: 20,
     paddingBottom: 30,
     paddingHorizontal: 20,
   },

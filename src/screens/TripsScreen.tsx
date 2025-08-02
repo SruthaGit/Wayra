@@ -208,19 +208,6 @@ const TripsScreen: React.FC = () => {
         }
         showsVerticalScrollIndicator={false}
       >
-        <View style={styles.header}>
-          <View style={styles.headerTop}>
-                                  <Text variant="titleLarge" style={styles.appName}>
-                        Wayra
-                      </Text>
-          </View>
-          <Text variant="headlineMedium" style={styles.title}>
-            My Trips
-          </Text>
-          <Text variant="bodyMedium" style={styles.subtitle}>
-            Plan, organize, and track your adventures
-          </Text>
-        </View>
 
         <View style={styles.tripsContainer}>
           {isLoading ? (
@@ -276,6 +263,7 @@ const styles = StyleSheet.create({
   content: {
     flex: 1,
     paddingHorizontal: 16,
+    paddingTop: 10,
   },
   scrollView: {
     flex: 1,
@@ -283,26 +271,7 @@ const styles = StyleSheet.create({
   scrollContent: {
     paddingBottom: 0,
   },
-  header: {
-    paddingTop: 8,
-    paddingBottom: 16,
-  },
-  headerTop: {
-    marginBottom: 8,
-  },
-  appName: {
-    fontWeight: 'bold',
-    color: '#5A67D8',
-  },
-  title: {
-    fontWeight: 'bold',
-    marginBottom: 4,
-    color: '#1F2937',
-  },
-  subtitle: {
-    opacity: 0.7,
-    color: '#6B7280',
-  },
+
   tripsContainer: {
     // Removed horizontal padding since it's now handled by SafeAreaView
   },

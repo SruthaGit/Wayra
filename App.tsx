@@ -5,6 +5,7 @@ import { Provider as PaperProvider } from 'react-native-paper';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { useColorScheme } from 'react-native';
+import { useFonts, Inter_400Regular, Inter_600SemiBold, Inter_700Bold } from '@expo-google-fonts/inter';
 
 import { theme } from './src/constants/theme';
 import { darkTheme } from './src/constants/darkTheme';
@@ -16,6 +17,16 @@ import { ThemeProvider } from './src/contexts/ThemeContext';
 export default function App() {
   const colorScheme = useColorScheme();
   const isDark = colorScheme === 'dark';
+  
+  const [fontsLoaded] = useFonts({
+    Inter_400Regular,
+    Inter_600SemiBold,
+    Inter_700Bold,
+  });
+
+  if (!fontsLoaded) {
+    return null; // Show loading screen while fonts are loading
+  }
 
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>

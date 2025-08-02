@@ -345,7 +345,7 @@ const CreateTripScreen: React.FC = () => {
           marginBottom: 6,
         }}
         modalPropsIOS={{
-          presentationStyle: 'formSheet',
+          presentationStyle: 'pageSheet',
         }}
       />
       <DateTimePickerModal
@@ -367,7 +367,7 @@ const CreateTripScreen: React.FC = () => {
           marginBottom: 6,
         }}
         modalPropsIOS={{
-          presentationStyle: 'formSheet',
+          presentationStyle: 'pageSheet',
         }}
       />
     </SafeAreaView>

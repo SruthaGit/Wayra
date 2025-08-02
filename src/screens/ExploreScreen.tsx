@@ -295,12 +295,7 @@ const ExploreScreen: React.FC = () => {
         }
         showsVerticalScrollIndicator={false}
       >
-        {/* App Name */}
-        <View style={styles.appNameContainer}>
-          <Text variant="titleLarge" style={styles.appName}>
-            Wayra
-          </Text>
-        </View>
+
 
         {/* Location Status */}
         {errorMsg && (
@@ -511,14 +506,7 @@ const styles = StyleSheet.create({
     marginTop: 16,
     textAlign: 'center',
   },
-  appNameContainer: {
-    paddingTop: 8,
-    paddingBottom: 12,
-  },
-  appName: {
-    fontWeight: 'bold',
-    color: '#5A67D8',
-  },
+
   locationError: {
     flexDirection: 'row',
     alignItems: 'center',
